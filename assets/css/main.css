@@ -1,0 +1,287 @@
+.container-login100 {
+    width              : 100%;
+    min-height         : 100vh;
+    display            : flex;
+    flex-wrap          : wrap;
+    justify-content    : center;
+    align-items        : center;
+    background-image   : url('/assets/img/Fundo.png');
+    background-size    : cover;
+    /* Cobrir completamente o elemento pai */
+    background-position: center center;
+    /* Centralizar a imagem */
+    background-repeat  : no-repeat;
+    /* Não repetir a imagem */
+}
+
+* {
+    margin    : 0px;
+    padding   : 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.monaqi {
+    font-family: "Monaqi";
+
+}
+
+.title-banner {
+    text-align : start;
+    font-size  : 32px;
+    color      : #f6f6f6;
+    font-family: "Monaqi";
+}
+
+.section2 {
+
+    font-size     : 67px;
+    letter-spacing: -2px;
+    line-height   : 66px;
+    color         : #dedb5a;
+    font-weight   : bold;
+    font-family   : "Monaqi";
+}
+
+.p-section2 {
+
+    font-size     : 18px;
+    letter-spacing: 0px;
+    line-height   : 31px;
+    color         : #47793c;
+    font-family   : "Monaqi";
+    text-align    : left;
+}
+
+.p-section3 {
+    font-size     : 18px !important;
+    letter-spacing: 0px;
+    line-height   : 31px;
+    color         : #f6f6f6;
+    font-family   : "Monaqi";
+    text-align    : left;
+    
+
+}
+
+.section3 {
+    background             : #115c2b;
+    border-top-right-radius: 340px;
+}
+
+.span-section3 {
+    /* width         : 909px;
+    height        : 496px; */
+    font-size     : 18px !important;
+    letter-spacing: 0px;
+    line-height   : 31px;
+    color         : #e1dc4c;
+    font-weight   : bold;
+    font-family   : "Monaqi";
+    text-align    : left;
+}
+
+.h5-footer {
+    font-size     : 42px;
+    letter-spacing: -1px;
+    line-height   : 33px;
+    color         : #382d1d;
+    font-weight   : 700;
+    font-family   : "Montserrat";
+}
+
+.button-cadastro {
+    font-size: 14px;
+}
+
+.maxheight {
+    max-height: 70%;
+}
+
+
+.button-clique {
+
+    border-radius   : 54px;
+    background-color: #ffffff;
+    border          : 3px solid #dedb5a;
+    font-size       : 22px;
+    letter-spacing  : 0px;
+    line-height     : 33px;
+    color           : #382d1d;
+    font-weight     : 700;
+    font-family     : "Montserrat";
+    color           : #0b1205;
+    border-style    : none;
+    border-radius   : 35px;
+    font-size: 16px;
+    padding: 1rem 25px 1rem 25px;
+
+}
+
+.button-clique:hover {
+    outline   : #0b1205;
+    background: #47793c;
+}
+
+
+
+.h2-title {
+    font-size     : 17px;
+    letter-spacing: 0px;
+    line-height   : 33px;
+    color         : #ffffff;
+    font-weight   : 700;
+    font-family   : "Montserrat";
+}
+
+.title-section3 {
+
+    font-size     : 32px;
+    letter-spacing: -1px;
+    line-height   : 44px;
+    color         : #dedb5a;
+    font-weight   : bold;
+    font-family   : "Monaqi";
+    text-align    : center;
+}
+
+.box-section3 {
+    border-bottom             : 2px solid #e3dd39;
+    border-left               : 2px solid #e3dd39;
+    border-right              : 2px solid #e3dd39;
+    border-bottom-left-radius : 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.social-box {
+    background-color: #115c2b;
+    color           : #fff;
+    border-radius   : 8px;
+    padding         : 10px;
+    width           : 62px;
+    height          : 45px;
+    margin          : 10px;
+    text-align      : center;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+.text-title {
+    margin-left: 50px;
+}
+
+.section3::before {
+    content   : "";
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 100%;
+    background: #fff;
+    z-index   : -1;
+}
+
+
+.h2-entrar {
+    background: transparent;
+    color: #fff;
+    border-radius: 28px;
+    padding: 3px 1rem 3px 1rem !important;
+    margin-top: 0.4rem;
+    border: 1px solid #fff;
+}
+
+/* Restante do seu CSS existente */
+@media screen and (max-width: 400px) {
+    .button-clique {
+        font-size: 9px !important;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .section2 {
+        font-size     : 50px;
+        letter-spacing: -2px;
+        line-height   : 60px;
+        color         : #dedb5a;
+        font-weight   : bold;
+        font-family   : "Monaqi";
+        margin-bottom : 28px;
+    }
+
+    .social-box {
+        padding: 8px;
+
+    }
+
+    .font-sobre {
+        font-size     : 15px !important;
+    }
+
+    .button-cadastro {
+        font-size: 10px !important;
+    }
+    
+    .maxheight {
+        max-height: 100%;
+    }
+
+    .container-login100 {
+        width          : 100%;
+        padding        : 20px;
+        /* Adicione algum espaçamento interno, se necessário */
+        background-size: cover;
+        /* Ou ajuste conforme a necessidade */
+    }
+
+    .title-banner {
+        text-align: center;
+        /* Centralizar o texto */
+        font-size : 36px;
+        /* Tamanho de fonte menor para telas menores */
+        margin    : 30px 4px 30px 4px;
+    }
+
+    /* Adicione mais regras conforme necessário */
+
+    .button-clique {
+        font-size: 11px;
+        padding: 0.8rem 2rem;
+    }
+
+    .social-box {
+        width : 40px;
+        /* Ajuste o tamanho do quadradinho com o ícone */
+        height: 40px;
+        margin: 5px;
+        /* Reduza a margem */
+    }
+
+    .icon {
+        font-size: 20px;
+        /* Reduza o tamanho do ícone */
+    }
+
+    .section3 {
+        border-radius: 0%;
+    }
+
+    .section1 {
+        display: grid !important;
+    }
+
+    .text-title {
+        margin: none;
+    }
+
+    .feature-box {
+        padding: 15px 16px 15px 35px;
+    }
+}
