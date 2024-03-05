@@ -30,6 +30,10 @@ html {
 
 }
 
+.footer-height {
+    height: 100px
+}
+
 .title-banner {
     text-align : start;
     font-size  : 32px;
@@ -197,6 +201,20 @@ html {
     border: 1px solid #fff;
 }
 
+.font-sobre {
+    color: #115c2b;
+    font-size     : 25px;
+    letter-spacing: 0px;
+    line-height   : 33px;
+    font-weight   : 700;
+    font-family   : "Montserrat";
+}
+
+.color-black {
+    color: #0b1205 !important;
+
+}
+
 /* Restante do seu CSS existente */
 @media screen and (max-width: 400px) {
     .button-clique {
@@ -221,9 +239,14 @@ html {
 
     }
 
-    .font-sobre {
-        font-size     : 15px !important;
+    .footer-height {
+        height: auto
     }
+
+    .max-width-busao {
+        max-height: 25% !important;
+    }
+
 
     .button-cadastro {
         font-size: 10px !important;
